@@ -10,3 +10,6 @@ we get libnms.so
 # Test
 we give a easily example to test  
 g++ -o nms  nms.cpp -L. -lnms && ./nms
+
+# Be Careful 
+when U use this Api, REMEBER the Det U must be sorting scores according to descending order ;.
